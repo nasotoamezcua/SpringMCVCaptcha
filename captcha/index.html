@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>BotDetect Java CAPTCHA Validation: Spring RestController Basic Code Example</title>
+ 
+</head>
+<body>
+  <form id="login-form" action="javascript:;" method="post" role="form" style="display: block;">
+    <h1>BotDetect Java CAPTCHA Validation: <br /> Spring RestController Basic Code Example</h1>
+    <fieldset>
+      <legend>Java CAPTCHA validation</legend>
+      <label for="captchaCode">Ingresa los caracteres de la imagen:</label>
+
+      <!-- Adding BotDetect Captcha to the page whit JQuery -->
+      <div id="botdetect-captcha" data-stylename="exampleCaptcha"></div>
+
+      <div class="validationDiv">
+        <input name="captchaCode" type="text" id="captchaCode"/>
+        <button type="submit" class="features-box-icon-submit">Validar</button>
+      </div>
+    </fieldset>
+  </form>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.backstretch.min.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/jquery-captcha.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

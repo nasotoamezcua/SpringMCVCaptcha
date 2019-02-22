@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<botdetect xmlns="https://captcha.com/schema/java" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://captcha.com/schema/java 
+      https://captcha.com/schema/java/botdetect-4.0.beta3.2.xsd">
+
+	<captchaStyles>
+		<captchaStyle>
+			<name>exampleCaptcha</name>
+			<userInputID>captchaCode</userInputID>
+			<codeLength>3</codeLength>
+			<codeStyle>ALPHA</codeStyle>
+			<imageStyle>BLACKOVERLAP</imageStyle>
+			<imageWidth>150</imageWidth>
+			<imageHeight>75</imageHeight>
+			<imageFormat>PNG</imageFormat>
+			<soundEnabled>true</soundEnabled>
+<!-- 			<soundStyle>DISPATCH,RED_ALERT,SYNTH</soundStyle> -->
+<!-- 			<soundRegenerationMode>LIMITED</soundRegenerationMode> -->
+			<soundStyle>DISPATCH</soundStyle>
+	      <soundFormat>WAV_PCM_8BIT_8KHZ_MONO</soundFormat>
+	      <soundRegenerationMode>NONE</soundRegenerationMode>
+			
+			<locale>es-MX</locale>
+			<imageTooltip>cargando...</imageTooltip>
+			<soundTooltip>escuchar sonido</soundTooltip>
+			<reloadTooltip>recargar imagen</reloadTooltip>
+			<iconsDivWidth>15</iconsDivWidth>
+			<autoUppercaseInput>false</autoUppercaseInput>
+		</captchaStyle>
+		<captchaStyle>
+      		<name>otroExample</name>
+      		<userInputID>captchaCode</userInputID>
+      		<codeLength>6</codeLength>
+    	</captchaStyle>
+	</captchaStyles>
+
+	
+
+	<!-- <soundPackagesFolder>WEB-INF\BotDetectSounds</soundPackagesFolder> -->
+	<warnAboutMissingSoundPackages>false</warnAboutMissingSoundPackages>
+
+</botdetect>
